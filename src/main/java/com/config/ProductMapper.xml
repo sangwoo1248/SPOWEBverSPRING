@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ProductMapper">
+
+	<select id="productList" resultType="ProductDTO" parameterType="string">
+	select sCode, sCategory,sName, sPrice, sContent, sImage, sBrand
+	from product
+	where sCategory= #{sCategory}
+	</select>
+	
+	<select id="productRetrieve" resultType="ProductDTO" parameterType="string">
+	select sCode, sCategory,sName, sPrice, sContent, sImage, sBrand
+	from product
+	where sCode= #{sCode}
+	</select>
+
+	<select id="productBuy" parameterType="int" resultType="ProductDTO">
+ 	select sCode, sCategory,sName, sPrice, sContent, sImage, sBrand
+	from product
+	where sCode= #{sCode}
+	</select>
+	
+	<select id="productSearch" resultType="ProductDTO" parameterType="hashmap">
+	select sCode, sCategory,sName, sPrice, sContent, sImage, sBrand
+		from product
+		where sCategory= LIKE '%'#{sCategory}'%' and sBrand = #{sBrand}
+		
+	    <!-- where sBrand = #{sBrand} and sName = #{sName} -->
+	</select>
+	
+	<select id="selectAll" resultType="ProductDTO">
+		select sCode, sCategory,sName, sPrice, sContent, sImage, sBrand
+		from product
+	</select>
+ 
+    <select id="totalRecord" resultType="int">
+		select count(*)
+		from product
+	</select>
+
+</mapper>
