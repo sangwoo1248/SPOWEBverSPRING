@@ -57,6 +57,6 @@ SPOWEB web version
 <h3>장바구니<br>
 <img src="https://user-images.githubusercontent.com/53454667/158961512-974c0a04-0968-493b-8e61-0d298ddae7b0.PNG" width = "80%"><br>
 <h3>상품 정보/ 상품 구매<br>
-<img src="https://user-images.githubusercontent.com/53454667/158960742-6e2783af-8792-4725-afc7-83c1a89fd45b.PNG width = "80%""><br>
+<img src="https://user-images.githubusercontent.com/53454667/158960742-6e2783af-8792-4725-afc7-83c1a89fd45b.PNG" width = "80%""><br>
 <h3>게시판<br>
 <img src = "https://user-images.githubusercontent.com/53454667/158963033-86c99d5d-7aef-498f-9134-98204964b3c7.png" width = "80%">
