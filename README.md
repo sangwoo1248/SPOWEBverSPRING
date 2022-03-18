@@ -5,15 +5,15 @@ SPOWEB web version
 <br>
 <h1> 개발 환경
   <br>
-- <h3>OS: Window 10
+- OS: Window 10
   <br>
-- <h3>WAS: Apache Tomcat 8.5
+- WAS: Apache Tomcat 8.5
   <br>
-- <h3>언어: HTML, JavaScript, JSP, Java, Spring
+- 언어: HTML, JavaScript, JSP, Java, Spring
   <br>
-- <h3>DB: Oracle 11g
+- DB: Oracle 11g
   <br>
-- <h3>기타: 카카오 API 지도
+- 기타: 카카오 API 지도
 <br>
 <h1> 기능
 <br>
