@@ -1,19 +1,19 @@
 # SPOWEBverSPRING
 SPOWEB web version
 <br>
-주제: 스포츠웨어 쇼핑몰
+<h1>주제: 스포츠웨어 쇼핑몰
 <br>
 <h1> 개발 환경
   <br>
-- OS: Window 10
+- <h3>OS: Window 10
   <br>
-- WAS: Apache Tomcat 8.5
+- <h3>WAS: Apache Tomcat 8.5
   <br>
-- 언어: HTML, JavaScript, JSP, Java, Spring
+- <h3>언어: HTML, JavaScript, JSP, Java, Spring
   <br>
-- DB: Oracle 11g
+- <h3>DB: Oracle 11g
   <br>
-- 기타: 카카오 API 지도
+- <h3>기타: 카카오 API 지도
 <br>
 <h1> 기능
 <br>
